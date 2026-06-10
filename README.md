@@ -41,19 +41,6 @@ streamlit run app.py
 ```
 Open http://localhost:8501 in your browser.
 
-## 🧠 How It Works
-
-| Step | What happens |
-|------|-------------|
-| **Preprocessing** | Lowercasing, punctuation removal, stemming, stopword removal |
-| **Vectorization** | TF-IDF with unigrams + bigrams (top 5,000 features) |
-| **Model** | Multinomial Naive Bayes (fast, accurate for text) |
-| **Evaluation** | Train/test split 80/20, stratified by label |
-
-## 📊 Results
-- **Accuracy:** ~97%
-- **Precision (Spam):** ~99%
-- **Recall (Spam):** ~94%
 
 ## 💡 Ideas to Extend This
 - Swap Naive Bayes for Logistic Regression or SVM and compare results
